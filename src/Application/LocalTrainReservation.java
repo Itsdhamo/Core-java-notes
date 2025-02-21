@@ -51,7 +51,7 @@ public class LocalTrainReservation {
 	int indexofsourcestation=l1.indexOf(sourcestation),indexofdestinationstation=l1.indexOf(destinationstation);
 	int nos=indexofdestinationstation-indexofsourcestation;
 	 	double fare=chargeperstation*nos;
-		System.out.println("train fare inbetween from "+sourcestation+" to "+destinationstation +"="+fare);
+		System.out.println("train fare inbetween from "+sourcestation+" to "+destinationstation +"= ₹ "+fare);
 		System.out.println("- - - WISH YOU HAPPY AND COMFORTABLE JOURNEY- - -");
 
 	    }
